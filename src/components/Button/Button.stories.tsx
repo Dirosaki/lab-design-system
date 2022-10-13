@@ -8,6 +8,13 @@ export default {
 	args: {
 		children: 'Button',
 	},
+	argTypes: {
+		asChild: {
+			table: {
+				disable: true,
+			},
+		},
+	}
 } as Meta<ButtonProps>
 
 export const Default: StoryObj<ButtonProps> = {}
